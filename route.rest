@@ -1,0 +1,35 @@
+GET http://localhost:3000/subscribers/
+
+###
+
+GET http://localhost:3000/subscribers/636c1cc30a62c44e79f68c2a
+
+###
+
+POST http://localhost:3000/subscribers/
+Content-Type: application/json
+
+{
+    "name" : "baloooooo",
+    "subscriberToChannel" : "balubad"
+}
+
+
+
+
+####ToDoApp
+
+GET http://localhost:3000/todoApp/
+
+###
+
+POST http://localhost:3000/todoApp/
+Content-Type: application/json
+
+{
+    "id" : "3",
+    "title" : "squash",
+    "description" : "play play",
+    "dueDate" : "12-09-2022"
+}
+

@@ -1,0 +1,13 @@
+GET http://localhost:5003/api/people
+
+####
+
+GET http://localhost:5003/api/people/postman
+
+####
+
+post http://localhost:5003/api/people/
+
+####
+
+GET http://localhost:5003/api/people
